@@ -61,6 +61,7 @@ def predict():
     dig_inp = np.reshape(dig_inp, (1, 28, 28, 1))
 
     pred = dig_model.predict(dig_inp)
+        
     CLASSES = np.array(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
 
     # Gives top 2 predictions as a list

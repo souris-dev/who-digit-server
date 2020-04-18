@@ -19,11 +19,17 @@ idna==2.9
 isort==4.3.20
 itsdangerous==1.1.0
 Jinja2==2.11.2
+Keras==2.3.1
+Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 lazy-object-proxy==1.4.1
+Mako==1.1.2
 Markdown==3.2.1
 MarkupSafe==1.1.1
 mccabe==0.6.1
+mkl-fft==1.0.15
+mkl-random==1.1.0
+mkl-service==2.3.0
 numpy==1.18.2
 oauthlib==3.1.0
 opt-einsum==3.2.1
@@ -31,6 +37,7 @@ Pillow==7.1.1
 protobuf==3.11.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
+pygpu==0.7.6
 pylint==2.3.1
 PyYAML==5.3.1
 requests==2.23.0
