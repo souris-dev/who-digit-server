@@ -31,7 +31,7 @@ def reference():
 
 @app.route('/download')
 def download():
-    return send_file('static/NotYetMade.apk')
+    return send_file('static/WhoDigit_Client.apk', as_attachment=True, attachment_filename="WhoDigit Client.apk")
 
 # Now for the actual predictor API
 
