@@ -11,7 +11,7 @@ import os
 
 #graph = tf.get_default_graph()
 
-dig_model = load_model(os.path.join(os.getcwd(), 'app' , 'models', 'MNIST_model3.h5'))
+dig_model = load_model(os.path.join(os.getcwd(), 'app' , 'models', 'MNIST_model4.h5'))
 
 print('Current working dir for models.__init__: ', os.getcwd())
 
