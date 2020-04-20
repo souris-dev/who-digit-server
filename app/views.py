@@ -13,6 +13,10 @@ from app.models import dig_model, MODEL_LOADED
 from PIL import Image
 import numpy as np
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_file('static/favicon.ico')
+
 @app.route('/')
 def index():
     return render_template('index.html')
